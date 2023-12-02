@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission Result</title>
+</head>
+<body>
+<h1>Chci se registrovat na nejlepší Pidinovskou joooogu!!!!</h1>
+<form method="post">
+    Jméno: <input type="text" name="name"><br />
+    Telefon: <input type="text" name="phone" required><br />
+    <input type="submit" value="Odeslat">
+</form>
+<p>{{ message }}</p>
+</body>
+</html>
